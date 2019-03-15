@@ -10,13 +10,20 @@ public class main1 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int a=sc.nextInt();
-		if(a>=0)
+		if(a>0)
 		{
 			System.out.println("The input number is positive.....");
 		}
 		else
 		{
+			if(a==0)
+			{
+				System.out.println("zero")
+			}
+			else
+			{
 			System.out.println("The input number is negative.....");
+			}
 		}
 		sc.close();
 
